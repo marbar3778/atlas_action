@@ -1,0 +1,17 @@
+name: Publish Module
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dry-run Module
+        uses: ./
+        with:
+          key: "testKey"
+          path: ./example/bank
+          dry-run: true
