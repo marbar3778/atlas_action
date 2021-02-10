@@ -14,3 +14,7 @@ inputs:
 runs:
   using: "docker"
   image: "interchainio/atlas"
+  args:
+    - ${{ inputs.token }}
+    - ${{ inputs.path }}
+    - ${{ inputs.dry-run }}
