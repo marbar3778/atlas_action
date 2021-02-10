@@ -6,7 +6,7 @@ name = "x/bank"
 description = "The bank module is responsible for handling account balances and trasnfers"
 
 # Link to where the module is located, it can also be a link to your project. (Optional)
-homepage = "homepage = "https://github.com/cosmos/cosmos-sdk""
+homepage = "https://github.com/cosmos/cosmos-sdk"
 
 #List of key words describing your module (Optional)
 keywords = [

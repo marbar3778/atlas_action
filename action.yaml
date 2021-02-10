@@ -13,7 +13,7 @@ inputs:
     default: false
 runs:
   using: "docker"
-  image: "interchainio/atlas"
+  image: "docker://interchainio/atlas"
   args:
     - ${{ inputs.token }}
     - ${{ inputs.path }}
